@@ -192,7 +192,10 @@
     }
 }
 /*Deo koda da kada se na manji uredjaji rotiraju da ne isece naslov*/
-@media screen and (max-height:500px){
+@media screen and (max-height:400px){
+    #ime{
+        margin-top:0vh; 
+    }
     #ime h2{
         margin-top:20px;
     }
